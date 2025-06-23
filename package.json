@@ -1,14 +1,17 @@
 {
+  "homepage": "https://github.com/harshithkataray/currency-convertor",
   "name": "curr",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "react": "^19.1.0",

@@ -18,7 +18,7 @@ function App() {
     <div
       className="flex flex-col h-screen w-full justify-center items-center"
       style={{
-        backgroundImage: "url('/image.png')",
+        backgroundImage: "url('/currency-convertor/image.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
